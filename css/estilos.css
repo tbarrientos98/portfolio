@@ -1,0 +1,118 @@
+body{
+    background-color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    height: 50px;
+    font-size: 65px;
+    }
+
+h3{
+    text-align: left;
+    font-weight: bolder;
+    line-height: 52px;
+    font-size: 45px;
+    }
+
+h3 a{
+    text-decoration: underline;
+}
+
+.nav-link{
+    color: #4B4B4B;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    width: 255px;
+    text-align: center;
+    }
+
+.nav-item.active  {
+    color: rgb(45, 45, 45);
+    text-decoration: underline;
+    text-underline-position: under;
+    }
+
+.navbar-toggler-icon{
+    border: 1px solid #4B4B4B !important;
+    padding: 7px;
+    width: 45px;
+    height: 37px;
+    border-radius: 3px;
+}
+
+.nav-link:hover{
+    color: rgb(45, 45, 45);
+    font-weight: bolder;
+    }
+
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEEEEE;
+    border-radius: 0%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #4B4B4B;
+    font-weight: 500;
+    }  
+
+
+
+.btn {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    border-radius: 0%;
+    }
+
+.btn:hover{
+    background-color: rgb(110, 109, 109);
+    color:white ;
+    }
+
+footer{
+    background-color: white;
+    }
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    }
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(45, 45, 45);
+    font-size: 17px;
+    }
+
+h5{
+    font-size: 20px;
+    color: rgb(45, 45, 45);
+}
+
+footer i{
+    font-size: 35px;
+    width: 55px;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 55px;
+    padding-top: 8px;
+    padding-left: 0px;
+    margin: 0px 15px;
+    }
+
+a{
+    color: rgb(45, 45, 45);
+    font-weight: 700;
+    }
+
+@media (max-width: 700px){
+    #contacto h3{
+        font-size: 27px ;
+    }
+}
