@@ -7,17 +7,17 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     height: 50px;
-    font-size: 65px;
+    font-size: 62px;
     }
 
-h3{
+h3{ /*contacto*/
     text-align: left;
     font-weight: bolder;
     line-height: 52px;
-    font-size: 45px;
-    }
+    font-size: 33px;
+}
 
-h3 a{
+h3 a{ 
     text-decoration: underline;
 }
 
@@ -59,9 +59,7 @@ h3 a{
     border-bottom-color: #4B4B4B;
     font-weight: 500;
     }  
-
-
-
+    
 .btn {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -79,20 +77,21 @@ footer{
     background-color: white;
     }
 
-h4{
+h4{ /*proyectos*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     }
 
-p{
+#proyectos p{
     font-family: 'Montserrat', sans-serif;
     color: rgb(45, 45, 45);
     font-size: 17px;
     }
 
-h5{
+h5{ /*proyectos*/
     font-size: 20px;
     color: rgb(45, 45, 45);
+    line-height: 37px;
 }
 
 footer i{
@@ -111,8 +110,83 @@ a{
     font-weight: 700;
     }
 
+.proyecto{
+    min-height: 490px;
+}
+
+img[alt="CV"] {
+    border-radius: 50%;
+    max-height: 85%;
+    max-width: 90%;
+    height: auto;
+}
+
+#fotocv{
+    max-height: 50%;
+}
+
+.pastalinda{
+    max-height: 180px;
+}
+
+section i{
+    font-size: 40px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+.sobremi{
+    min-height: 246px;
+}
+
+
+
+#experiencia{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+#experiencia img{
+    max-height: 63%;
+}
+
+#experiencia h3{
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: 500;
+} 
+
+h2{
+    font-size: 46px;
+    font-weight: 600;
+}
+
+#experiencia p{
+    font-size: 17px;
+}
+
+#inicio h1{
+    font-size: 65px;
+}
+#inicio h5{
+    font-size: 22px;
+}
+
+#home{ 
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+
 @media (max-width: 700px){
     #contacto h3{
         font-size: 27px ;
+    }
+    img[alt=CV]{
+        max-height: 95%;
+    }
+    .fotocv{
+        max-width: 74%;
+        height: auto;
     }
 }
