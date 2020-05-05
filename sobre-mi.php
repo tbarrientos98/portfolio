@@ -45,7 +45,7 @@
             <div class="row pt-4">
                 <div class="col-sm-7 col-12">
                     <h1>Sobre mí</h1>
-                    <h5 class="my-5">Soy técnico electromecánico, estudiante de programación y profesor de bachata. Estoy descubriendo nuevos rubros, ampliando conocimientos y encontrando mis pasiones.</h5>
+                    <h5 class="my-5">Soy técnico electromecánico,  profesor de bachata y estudiante de programación. Estoy descubriendo nuevos rubros, ampliando conocimientos y encontrando mis pasiones.</h5>
                     <a href="files/cvtbarrientos.pdf" target="_blank" class="btn">Descargar CV</a>
                 </div>
                 <div class="col-sm-5 col-12 text-center">
