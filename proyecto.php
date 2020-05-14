@@ -1,3 +1,7 @@
+<?php
+    $pg = "proyecto";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,31 +19,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <div class="row">
-                <div class="col-12" id="menuresponsive">
-                    <ul class="navbar-nav mr-auto p-4">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.php">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre-mi.php">SOBRE MI</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="proyecto.php">PROYECTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.php">CONTACTO</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <?php include_once("menu.php");?>
+
     <div class="container">
         <section id="proyectos">
             <div class="row py-4">
@@ -133,42 +114,7 @@
         </section>
     </div>
 
-    <footer id="footermb" class="mt-5">
-        <div class="col-12 py-3 text-center">
-            <div class="row">
-                <div class="col-4 footermobile">
-                    <a href="https://api.whatsapp.com/send?phone=541151757695&amp;text=Hola" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                </div>
-                <div class="col-4">
-                    <a href="http://www.linkedin.com/in/tomás-barrientos-672020176" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-4">
-                    <a href="https://github.com/tbarrientos98/portfolio" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <footer id="footerpc">
-        <div class="container">
-            <div class="row pt-4" id="footer">
-                <div class="col-12 col-sm-4 py-4 text-sm-left text-center">
-                    <p><a href="index.html">©Todos los derechos
-                            reservados<br>2020</a></p>
-                </div>
-                <div class="col-12 col-sm-4 py-4 text-center">
-                    <a href="https://api.whatsapp.com/send?phone=541151757695&amp;text=Hola" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a href="http://www.linkedin.com/in/tomás-barrientos-672020176" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/tbarrientos98/portfolio" target="_blank"><i class="fab fa-github"></i></a>
-
-                </div>
-                <div class="col-12 col-sm-4 py-4 text-sm-right text-center">
-                    <p>Patrocinado por<br><a href="http://depcsuite.com" target="_blank">DePC Suite</a></p>
-
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php");?>
 
 </body>
 
