@@ -15,7 +15,7 @@
                         <li class="nav-item <?php echo $pg == "proyecto"? "active": "";?>">
                             <a class="nav-link" href="proyecto.php">PROYECTOS</a>
                         </li>
-                        <li class="nav-item <?php echo $pg == "contacto"? "active": "";?>">
+                        <li class="nav-item <?php echo $pg == "contacto" || $pg == "confirmacion-envio"? "active": "";?>">
                             <a class="nav-link" href="contacto.php">CONTACTO</a>
                         </li>
                     </ul>

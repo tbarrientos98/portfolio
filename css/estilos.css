@@ -251,7 +251,7 @@ h2{
     .patrocinado{
         display: none;
     }
-    
+
     .nav-item.active  {
         color: rgb(45, 45, 45);
         text-decoration: underline;
