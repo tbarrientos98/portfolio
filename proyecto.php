@@ -1,7 +1,7 @@
 <?php
     $pg = "proyecto";
 ?>
-
+   
 <!DOCTYPE html>
 <html lang="es">
 
@@ -24,12 +24,12 @@
     <div class="container">
         <section id="proyectos">
             <div class="row py-4">
-                <div class="col-12 pb-sm-3">
+                <div class="col-12 pb-sm-5">
                     <h1>Mis proyectos</h1>
                 </div>
             </div>
-            <div class="row my-sm-3 my-3">
-                <div class="col-sm-7 col-12">
+            <div class="row my-sm-3 my-5">
+                <div class="col-sm-7 col-12 pt-sm-0 pt-5">
                     <h5>Estos son algunos de los trabajos que he realizado:</h5>
                 </div>
             </div>

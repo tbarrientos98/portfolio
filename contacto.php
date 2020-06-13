@@ -37,9 +37,9 @@ if ($_POST) { /* es postback */
     $mail->addBCC("barrientostomas98@gmail.com"); //Copia oculta
     $mail->Subject = utf8_decode("Contacto página Web");
     $mail->Body = "Recibimos tu consulta, te responderemos a la brevedad.";
-    if (!$mail->Send()) {
+    //if (!$mail->Send()) {
       $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
-    }
+    //}
     $mail->ClearAllRecipients(); //Borra los destinatarios
 
     //Envía ahora un correo a nosotros con los datos de la persona
@@ -47,14 +47,14 @@ if ($_POST) { /* es postback */
     $mail->Subject = utf8_decode("Recibiste un mensaje desde tu página Web");
     $mail->Body = "Te escribio $nombre cuyo correo es $correo, con el asunto $asunto y el siguiente mensaje:<br><br>$mensaje";
 
-    if ($mail->Send()) { /* Si fue enviado correctamente redirecciona */
+    //if ($mail->Send()) { /* Si fue enviado correctamente redirecciona */
       header('Location: confirmacion-envio.php');
-    } else {
+    //} else {
       $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
     }
-  } else {
+  //} else {
     $msg = "Complete todos los campos";
-  }
+  //}
 }
 ?>
 
@@ -82,8 +82,8 @@ function guardarCorreo($correo){
   <script src="js/jquery-3.4.1.slim.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
 </head>
-
-<body>
+ 
+<body> 
   <?php include_once("menu.php") ?>
   <div class="container">
     <section id="contacto">

@@ -8,7 +8,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     height: 50px;
-    font-size: 62px;
+    font-size: 60px;
     }
 
 h3{ /*contacto*/
@@ -240,8 +240,9 @@ h2{
     .nav-item.active{
         text-decoration: none; /*página activa sin hover: mobile*/
     }
-    
-    
+    #inicio h1 {
+        font-size: 61px;
+    }
 }
 
 @media (min-width: 700px){
