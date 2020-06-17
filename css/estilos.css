@@ -82,6 +82,9 @@ h4{ /*proyectos*/
     color: rgb(45, 45, 45);
     font-size: 17px;
     }
+.proyecto{
+    min-height: 30em;
+}
 
 h5{ /*proyectos*/
     font-size: 20px;
@@ -140,8 +143,9 @@ section i{
     color: white;
 }
 
-#experiencia img{
-    max-height: 55%;
+#experiencia img{ /* imagen de experiencia */
+    max-height: 50%;
+    max-width: 98% !important;
 }
 
 #experiencia h3{

@@ -54,7 +54,7 @@
                             <div class="col-12">
                                 <i class="fas fa-laptop-code p-4"></i>
                                 <h4 class="my-3">SOFTWARE</h4>
-                                <p>GIT, GitHub, Visual Code, MS Office, Google Docs. MS Project. MS Windows</p>
+                                <p>GIT, GitHub, Visual Code, MS Office, Google Docs, Heidi SQL, MS Project, MS Windows.</p>
                             </div>
                         </div>
                     </div>
@@ -98,6 +98,18 @@
                         </div>
                     </div>
                 </div>
+                <!--sexto bloque: base de datos-->
+                <div class="col-sm-6 col-12 pb-4">
+                    <div class="bg-white sobremi">
+                        <div class="row p-3">
+                            <div class="col-12">
+                                <i class="fas fa-database p-4"></i>
+                                <h4 class="my-3">BASE DE DATOS</h4>
+                                <p>MySQL/MariaDB.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -115,7 +127,7 @@
                 </div>
                 <div class="col-sm-3 col-12 pastalinda mt-sm-0 mt-3 pl-sm-4">
                     <p id="operario">Operario calificado:</p>
-                    <img src="images/pastalinda2.png" alt="img-responsive" class="img-thumbnail mt-4">
+                    <img src="images/pastalinda2.png" alt="" class="img-thumbnail mt-4">
                 </div>
                 <div class="col-sm-7 col-12">
                     <p>Estuve a cargo de la puesta a punto de tornos automáticos destinados para producir

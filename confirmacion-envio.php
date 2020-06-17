@@ -2,8 +2,7 @@
 
 $pg = "confirmacion-envio";
 
-?>
-
+?> 
 <!DOCTYPE html>
 <html lang="es">
 <head>

@@ -40,15 +40,15 @@
                         <div class="row">
                             <div class="col-12">
                                 <img src="images/abmclientes.png" alt="ABM CLientes" class="img-fluid">
-                                <h4 class="text-center text-sm-left pt-3">ABM Clientes</h4>
+                                <h4 class="text-center text-sm-left pt-4">ABM Clientes</h4>
                                 <p class="py-3">Alta, Baja, modificación de un registro de clientes realizado en HTML,
                                     CSS, PHP,
-                                    Bootstrap y Json.</p>
+                                    Bootstrap y Json. </p>
                             </div>
                         </div>
-                        <div class="row pt-4">
+                        <div class="row pt-2">
                             <div class="col-6">
-                                <a href="" class="btn">Ver online</a>
+                                <a href="http://localhost/sistema/abmclientes/" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
                                 <a href="https://github.com/tbarrientos98/portfolio" target="_blank">Código fuente</a>
@@ -69,9 +69,9 @@
                                     Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row pt-2">
                             <div class="col-6">
-                                <a href="" class="btn">Ver online</a>
+                                <a href="http://localhost/login/login.php" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
                                 <a href="https://github.com/tbarrientos98/portfolio" target="_blank">Código fuente</a>
@@ -85,7 +85,7 @@
             <div class="row pb-4">
                 <div class="col-sm-6 col-12">
                     <div class="bg-white p-3 proyecto">
-                        <div class="row">
+                        <div class="row pt-2">
                             <div class="col-12">
                                 <img src="images/sistema-admin.png" alt="ABM CLientes" class="img-fluid">
                                 <h4 class="text-center text-sm-left pt-3">Proyecto integrador</h4>
