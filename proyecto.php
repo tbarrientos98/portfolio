@@ -48,7 +48,7 @@
                         </div>
                         <div class="row pt-2">
                             <div class="col-6">
-                                <a href="http://localhost/sistema/abmclientes/" class="btn">Ver online</a>
+                                <a href="http://localhost/sistema/abmclientes/" target="_blank" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
                                 <a href="https://github.com/tbarrientos98/portfolio" target="_blank">Código fuente</a>
@@ -71,7 +71,7 @@
                         </div>
                         <div class="row pt-2">
                             <div class="col-6">
-                                <a href="http://localhost/login/login.php" class="btn">Ver online</a>
+                                <a href="http://localhost/login/login.php" target="_blank" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
                                 <a href="https://github.com/tbarrientos98/portfolio" target="_blank">Código fuente</a>
