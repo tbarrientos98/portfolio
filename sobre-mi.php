@@ -42,7 +42,7 @@
                             <div class="col-12">
                                 <i class="fas fa-code p-4"></i>
                                 <h4 class="my-3">LENGUAJES DE PROGRAMACIÓN</h4>
-                                <p>HTML, CSS, Bootstrap, jQuery, PHP, POO, MVC, Framework Laravel, jQuery, JSON.</p>
+                                <p>HTML, CSS, Bootstrap, PHP, POO, MVC, Framework Laravel, Javascript, jQuery, React.js, AJAX, JSON.</p>
                             </div>
                         </div>
                     </div>
