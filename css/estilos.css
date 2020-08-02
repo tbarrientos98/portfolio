@@ -22,7 +22,9 @@ h3 a{
     text-decoration: underline;
 }
 
-.nav-link{
+
+
+.nav-link{ /*----- MENÚ ----- */
     color: #4B4B4B;
     text-decoration: none;
     font-size: 19px;
@@ -39,7 +41,8 @@ h3 a{
     border-radius: 3px;
 }
 
-.nav-link:hover{
+
+.nav-link:hover{ /*----- MENÚ ----- */
     color: rgb(45, 45, 45);
     font-weight: bolder;
     }
@@ -168,6 +171,9 @@ h2{
 }
 #inicio h5{
     font-size: 22px;
+    position: relative;
+    top: 1.5em;
+
 }
 /*imagen de fondo: pagina inicio*/
 #home{ 
@@ -218,22 +224,22 @@ h2{
         font-weight: 600;
         text-decoration: underline;
     }
-    .navbar{
+    .navbar{ /*----- MENÚ ----- */
        background-color: white;
     }
-    .navbar-toggler{
+    .navbar-toggler{ /*----- MENÚ ----- */
         position: relative;
         left: 85%;
     }
-    .nav-link{
+    .nav-link{ /*----- MENÚ ----- */
         text-align: left;
         color: white;
     }
-    .nav-item ,.nav-item.active{
+    .nav-item ,.nav-item.active{ /*----- MENÚ ----- */
         border-bottom: 1px solid ;
         color: white;
     }
-    #menuresponsive{
+    #menuresponsive{ /*----- MENÚ ----- */
         z-index: 1000;
         height: 100vh;
         color: white;
@@ -241,7 +247,7 @@ h2{
         width: 100%;
     }
     
-    .nav-item.active{
+    .nav-item.active{ /*----- MENÚ ----- */
         text-decoration: none; /*página activa sin hover: mobile*/
     }
     #inicio h1 {
@@ -256,13 +262,12 @@ h2{
     .patrocinado{
         display: none;
     }
-
-    .nav-item.active  {
+    .nav-item.active  { /*----- MENÚ ----- */
         color: rgb(45, 45, 45);
         text-decoration: underline;
         text-underline-position: under;
     }
-    .navbar-expand-sm{
+    .navbar-expand-sm{ /*----- MENÚ ----- */
         width: 100%;
     }
 }
