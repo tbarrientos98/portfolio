@@ -8,7 +8,7 @@
                     <a href="http://www.linkedin.com/in/tomás-barrientos-672020176" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-4">
-                    <a href="https://github.com/tbarrientos98/portfolio" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/tbarrientos98" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <div class="col-12 col-sm-4 py-4 text-center">
                     <a href="https://api.whatsapp.com/send?phone=541151757695&amp;text=Hola" target="_blank"><i class="fab fa-whatsapp"></i></a>
                     <a href="http://www.linkedin.com/in/tomás-barrientos-672020176" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/tbarrientos98/portfolio" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/tbarrientos98" target="_blank"><i class="fab fa-github"></i></a>
 
                 </div>
                 <div class="col-12 col-sm-4 py-4 text-sm-right text-center">
