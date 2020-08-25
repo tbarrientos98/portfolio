@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+    <link rel="icon" href="images/logotomas.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/jquery-3.4.1.slim.min.js"></script>

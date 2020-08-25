@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+    <link rel="icon" href="images/logotomas.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/jquery-3.4.1.slim.min.js"></script>
@@ -33,7 +34,7 @@
                     <h5>Estos son algunos de los trabajos que he realizado:</h5>
                 </div>
             </div>
-            <!-- empieza el 1er proyecto-->
+            <!-- empieza el 1er proyecto: ABM CLIENTES-->
             <div class="row pb-4">
                 <div class="col-sm-6 col-12 pb-sm-0 pb-4">
                     <div class="bg-white p-3 proyecto">
@@ -51,43 +52,45 @@
                                 <a href="http://localhost/sistema/abmclientes/" target="_blank" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
-                                <a href="https://github.com/tbarrientos98/portfolio" target="_blank">Código fuente</a>
+                                <a href="https://github.com/tbarrientos98/ABMclientes" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- termina el 1er proyecto-->
-                <!-- empieza el 2do proyecto-->
+                
+                <!-- empieza el 2do proyecto: ABM VENTAS-->
                 <div class="col-sm-6 col-12">
                     <div class="bg-white p-3 proyecto">
                         <div class="row">
                             <div class="col-12">
-                                <img src="images/abmventas.png" alt="ABM CLientes" class="img-fluid">
+                                <img src="images/abmventas.png" alt="ABM Ventas" class="img-fluid">
                                 <h4 class="text-center text-sm-left pt-3">Sistema de gestión de ventas</h4>
-                                <p class="py-3">Sistema de gestión de clientes, productos y ventas. Realizado en HTML,
+                                <p class="pt-3">Sistema de gestión de clientes, productos y ventas. Realizado en HTML,
                                     CSS, PHP, MVC,
                                     Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
                             </div>
                         </div>
-                        <div class="row pt-2">
+                        <div class="row">
                             <div class="col-6">
                                 <a href="http://localhost/login/login.php" target="_blank" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
-                                <a href="https://github.com/tbarrientos98/portfolio" target="_blank">Código fuente</a>
+                                <a href="https://github.com/tbarrientos98/ABMventas" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- termina el 2do proyecto-->
-            <!-- empieza el 3er proyecto-->
+
+            <!-- empieza el 3er proyecto: PROYECTO LARAVEL-->
             <div class="row pb-4">
                 <div class="col-sm-6 col-12">
                     <div class="bg-white p-3 proyecto">
                         <div class="row pt-2">
                             <div class="col-12">
-                                <img src="images/sistema-admin.png" alt="ABM CLientes" class="img-fluid">
+                                <img src="images/sistema-admin.png" alt="Proyecto Laravel" class="img-fluid">
                                 <h4 class="text-center text-sm-left pt-3">Proyecto integrador</h4>
                                 <p class="py-3">Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery,
                                     AJAX, HTML, CSS, con panel administrador, gestor de usuarios, módulo de permisos y
@@ -99,13 +102,42 @@
                                 <a href="" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
-                                <a href="https://github.com/tbarrientos98/portfolio" target="_blank">Código fuente</a>
+                                <a href="" target="_blank">Código fuente</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- termina el 3er proyecto-->
+
+                <!-- empieza el 4to proyecto: Proyecto página web para diseñadora digital-->
+
+                <div class="col-sm-6 col-12">
+                    <div class="bg-white p-3 proyecto">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="images/paginaKaren.png" alt="ABM Ventas" class="img-fluid">
+                                <h4 class="text-center text-sm-left pt-3">Página web</h4>
+                                <p class="py-3">Portfolio personal. Elaborado en HTML, CSS, Bootstrap y Javascript.</p>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div class="col-6">
+                                <a href="" target="_blank" class="btn">En proceso</a>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="https://github.com/tbarrientos98/Karensofia" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- termina el 3er proyecto-->
+            </div>
+            
+            
+            
+            
+
+
             <div class="row pb-5 patrocinado">
                 <div class="col-12 pb-5 pr-4 text-right pat-negro">
                     <p>Patrocinado por<br><a href="http://depcsuite.com" target="_blank" class="depcsuite">DePC Suite</a></p>
