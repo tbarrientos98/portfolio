@@ -1,7 +1,7 @@
 <?php
-    $pg = "proyecto";
+$pg = "proyecto";
 ?>
-   
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <?php include_once("menu.php");?>
+    <?php include_once("menu.php"); ?>
 
     <div class="container">
         <section id="proyectos">
@@ -30,12 +30,13 @@
                 </div>
             </div>
             <div class="row my-sm-3 my-5">
-                <div class="col-sm-7 col-12 pt-sm-0 pt-5">
+                <div class="col-sm-7 col-12 pt-sm-0 pt-4">
                     <h5>Estos son algunos de los trabajos que he realizado:</h5>
                 </div>
             </div>
             <!-- empieza el 1er proyecto: ABM CLIENTES-->
             <div class="row pb-4">
+                <!-- padding bottom para separar proyecto 2 del proyecto 3 -->
                 <div class="col-sm-6 col-12 pb-sm-0 pb-4">
                     <div class="bg-white p-3 proyecto">
                         <div class="row">
@@ -58,7 +59,7 @@
                     </div>
                 </div>
                 <!-- termina el 1er proyecto-->
-                
+
                 <!-- empieza el 2do proyecto: ABM VENTAS-->
                 <div class="col-sm-6 col-12">
                     <div class="bg-white p-3 proyecto">
@@ -86,7 +87,7 @@
 
             <!-- empieza el 3er proyecto: PROYECTO LARAVEL-->
             <div class="row pb-4">
-                <div class="col-sm-6 col-12">
+                <div class="col-sm-6 col-12 pb-sm-0 pb-4">
                     <div class="bg-white p-3 proyecto">
                         <div class="row pt-2">
                             <div class="col-12">
@@ -120,7 +121,7 @@
                                 <p class="py-3">Portfolio personal. Elaborado en HTML, CSS, Bootstrap y Javascript.</p>
                             </div>
                         </div>
-                        <div class="row pt-2">
+                        <div class="row pt-2" style="position:relative; bottom: 0px">
                             <div class="col-6">
                                 <a href="" target="_blank" class="btn">En proceso</a>
                             </div>
@@ -131,13 +132,7 @@
                     </div>
                 </div>
             </div>
-            </div>
-            
-            
-            
-            
-
-
+    
             <div class="row pb-5 patrocinado">
                 <div class="col-12 pb-5 pr-4 text-right pat-negro">
                     <p>Patrocinado por<br><a href="http://depcsuite.com" target="_blank" class="depcsuite">DePC Suite</a></p>
@@ -145,9 +140,7 @@
             </div>
         </section>
     </div>
-
-    <?php include_once("footer.php");?>
-
 </body>
+<?php include_once("footer.php"); ?>
 
 </html>

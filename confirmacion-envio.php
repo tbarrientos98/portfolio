@@ -26,18 +26,18 @@ $pg = "confirmacion-envio";
     <section class="mb-5">
         <div class="container pb-1">
             <div class="row py-5">
-                <div class="col-6">
+                <div class="col-sm-6 col-12">
                     <h1>Gracias por<br>contactarte,</h1>
                 </div>
             </div>
             <div class="row py-5 mb-5">
-                <div class="col-4">
+                <div class="col-sm-4 col-12">
                     <h5>te responderé a la brevedad.</h5>
                 </div>
             </div>
         </div>
     </section>
-    <div class="text-align"><?php include_once("footer.php");?></div>
+    
 </body>
-
+<div class="text-align" style="width:100%; position:absolute; bottom:0em"><?php include_once("footer.php");?></div>
 </html>

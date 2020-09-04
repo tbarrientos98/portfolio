@@ -29,12 +29,12 @@
                 <div class="row my-5">
                     <div class="col-12">
                         <div class="row pb-sm-3 pb-5 ">
-                            <div class="col-12 pb-sm-0 pb-5">
+                            <div class="col-12 pb-sm-0 pb-sm-3">
                                 <h1>Hola!<br>Soy Tomás Barrientos.</h1>
                             </div>
                         </div>
                         <div class="row mt-5">
-                            <div class="col-12 pt-5">
+                            <div class="col-12 pt-sm-2 pt-4">
                                 <h5>Programador Web Full Stack</h5>
                             </div>
                         </div>
@@ -54,8 +54,8 @@
         </div>
     </div>
 
-    <?php include_once("footer.php");?>
+    
 
 </body>
-
+<?php include_once("footer.php");?>
 </html>

@@ -2,27 +2,40 @@ body{
     background-color: #EEEEEE;
     font-family: 'Montserrat', sans-serif;
     width: auto;
-    }
+}
 
-h1{
+/**************************************************** TAMAÑO DE FUENTE Y ESTILOS*/
+
+h1{    /****** TITULO PRINCIPAL DE CADA PAGINA*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     height: 50px;
     font-size: 60px;
-    }
-
-h3{ /*contacto*/
+}
+h2{ /****** TITULO (EXPERIENCIA LABORAL) EN PAGINA "SOBRE MI"*/
+    font-size: 46px;
+    font-weight: 600;
+}
+h3{ /****** SUB-TITULO PRINCIPAL DE PAGINA "CONTACTO", NOMBRE DE EMPRESA CON AÑOS DE INICIO Y FIN*/
     text-align: left;
     font-weight: bolder;
     line-height: 52px;
     font-size: 33px;
 }
-
-h3 a{ 
+h3 a{ /****** ENLACES EN SUB-TITULO DE PAGINA "CONTACTO"*/
     text-decoration: underline;
 }
+h4{ /****** NOMBRE DE CADA PROYECTO, NOMBRE DE (CATEGORIAS) EN PAGINA "SOBRE MI"*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+h5{ /****** SUB-TITULO PRINCIPAL DE CADA PAGINA*/
+    font-size: 20px;
+    color: rgb(45, 45, 45);
+    line-height: 37px;
+}
 
-
+/**************************************************** MENÚ RESPONSIVO*/  
 
 .nav-link{ /*----- MENÚ ----- */
     color: #4B4B4B;
@@ -32,7 +45,6 @@ h3 a{
     width: 300px;
     text-align: center;
 }
-
 .navbar-toggler-icon{
     border: 1px solid #4B4B4B !important;
     padding: 7px;
@@ -40,12 +52,12 @@ h3 a{
     height: 37px;
     border-radius: 3px;
 }
-
-
 .nav-link:hover{ /*----- MENÚ ----- */
     color: rgb(45, 45, 45);
     font-weight: bolder;
-    }
+}
+
+/**************************************************** FORMULARIO DE PAGINA "CONTACTO" */
 
 .form-control {
     font-family: 'Montserrat', sans-serif;
@@ -57,44 +69,26 @@ h3 a{
     border-bottom-color: #4B4B4B;
     font-weight: 500;
     }  
-    
+
+/**************************************************** BOTON POR DEFECTO EN TODAS LAS PAGINAS */   
+
 .btn {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(45, 45, 45);
     color: white;
     border-radius: 0%;
-    }
-
+}
 .btn:hover{
     background-color: rgb(110, 109, 109);
     color:white ;
-    }
+}
+
+/**************************************************** ESTILOS DE FOOTER SM */
 
 footer{
     background-color: white;
-    }
-
-h4{ /*proyectos*/
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    }
-
-#proyectos p{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(45, 45, 45);
-    font-size: 17px;
-    }
-.proyecto{
-    min-height: 30em;
 }
-
-h5{ /*proyectos*/
-    font-size: 20px;
-    color: rgb(45, 45, 45);
-    line-height: 37px;
-}
-
 footer i{
     font-size: 35px;
     width: 55px;
@@ -104,67 +98,64 @@ footer i{
     padding-top: 8px;
     padding-left: 0px;
     margin: 0px 15px;
-    }
-
+}
 a{
     color: rgb(45, 45, 45);
     font-weight: 700;
-    }
+}
+
+/**************************************************** ESTILOS PAGINA PROYECTO */   
+
+#proyectos p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(45, 45, 45);
+    font-size: 17px;
+}
+
+/**************************************************** ESTILOS PAGINA SOBRE MI */  
 
 img[alt="CV"] {
     border-radius: 50%;
     max-width: 75%;
     height: auto;
 }
-
 #fotocv{
     max-height: 50%;
 }
-
 .pastalinda{
     max-height: 180px;
 }
-
 #operario{
     font-style: oblique;
     margin-bottom: 0em;
     font-size: 19px !important;
 }
-
+.sobremi{
+    min-height: 246px;
+}
+#experiencia{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+#experiencia img{ /* imagen de experiencia */
+    max-height: 50%;
+    max-width: 70% !important;
+}
+#experiencia h3{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+} 
+#experiencia p{
+    font-size: 17px;
+}
 section i{
     font-size: 40px;
     color: white;
     background-color: rgb(45, 45, 45);
 }
 
-.sobremi{
-    min-height: 246px;
-}
-
-#experiencia{
-    background-color: rgb(45, 45, 45);
-    color: white;
-}
-
-#experiencia img{ /* imagen de experiencia */
-    max-height: 50%;
-    max-width: 70% !important;
-}
-
-#experiencia h3{
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: 500;
-} 
-
-h2{
-    font-size: 46px;
-    font-weight: 600;
-}
-
-#experiencia p{
-    font-size: 17px;
-}
+/**************************************************** ESTILOS PAGINA INICIO */   
 
 #inicio h1{
     font-size: 65px;
@@ -181,6 +172,8 @@ h2{
     background-size: 100%;
 }
 
+/**************************************************** PATROCINADO */ 
+
 .pat-negro p{
     font-size: 21px !important;
 }
@@ -190,11 +183,15 @@ h2{
     text-decoration: underline;
 }
 
+/**************************************************** MEDIA QUERIES */   
 
-@media (max-width: 700px){ /*vista mobile*/
-    #contacto h3{
+@media (max-width: 700px){ /*VISTA MOBILE (PARA CELULAR)*/ 
+    #contacto h3{ /*ESTILOS DE CONTACTO */
         font-size: 27px ;
     }
+
+    /******IMAGEN CV PAGINA "SOBRE MI" */
+
     img[alt=CV]{
         max-height: 95%;
     }
@@ -202,10 +199,13 @@ h2{
         max-width: 74%;
         height: auto;
     }
-    #footerpc{
+
+    /******ESTILOS DEL FOOTER */
+
+    #footerpc{/*FOOTER PARA COMPUTADORAS*/
         display: none;
     }
-    #footermb{
+    #footermb{/*FOOTER PARA CELULARES*/
         position: fixed;
         bottom: 0%;
         width: 100%;
@@ -224,34 +224,43 @@ h2{
         font-weight: 600;
         text-decoration: underline;
     }
-    .navbar{ /*----- MENÚ ----- */
+
+    /******ESTILOS PARA EL MENU */
+
+    .navbar{ 
        background-color: white;
     }
-    .navbar-toggler{ /*----- MENÚ ----- */
+    .navbar-toggler{ 
         position: relative;
         left: 85%;
     }
-    .nav-link{ /*----- MENÚ ----- */
+    .nav-link{ 
         text-align: left;
         color: white;
     }
-    .nav-item ,.nav-item.active{ /*----- MENÚ ----- */
+    .nav-item ,.nav-item.active{
         border-bottom: 1px solid ;
         color: white;
     }
-    #menuresponsive{ /*----- MENÚ ----- */
+    #menuresponsive{
         z-index: 1000;
         height: 100vh;
         color: white;
         background-color: #2D2D2D;
         width: 100%;
     }
-    
-    .nav-item.active{ /*----- MENÚ ----- */
+    .nav-item.active{ 
         text-decoration: none; /*página activa sin hover: mobile*/
     }
+
+    /******ESTILOS DE INICIO */
+    
     #inicio h1 {
-        font-size: 61px;
+        font-size: 3em;
+    }
+
+    .proyecto{ /*cuadros con los proyectos */
+        min-height: 10em;
     }
 }
 
@@ -269,5 +278,8 @@ h2{
     }
     .navbar-expand-sm{ /*----- MENÚ ----- */
         width: 100%;
+    }
+    .proyecto{ /*cuadros con los proyectos */
+        min-height: 30em;
     }
 }
