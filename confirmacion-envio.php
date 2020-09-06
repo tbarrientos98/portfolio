@@ -25,12 +25,12 @@ $pg = "confirmacion-envio";
     </header>
     <section class="mb-5">
         <div class="container pb-1">
-            <div class="row py-5">
-                <div class="col-sm-6 col-12">
-                    <h1>Gracias por<br>contactarte,</h1>
+            <div class="row py-5 mb-sm-0 mb-5">
+                <div class="col-sm-10 col-12">
+                    <h1>Gracias por contactarte,</h1>
                 </div>
             </div>
-            <div class="row py-5 mb-5">
+            <div class="row py-5 mt-sm-0 mt-5">
                 <div class="col-sm-4 col-12">
                     <h5>te responderé a la brevedad.</h5>
                 </div>

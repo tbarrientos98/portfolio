@@ -184,8 +184,14 @@ section i{
 }
 
 /**************************************************** MEDIA QUERIES */   
+@media (max-width: 400px) and (min-width: 300px)  {/*VISTA MOBILE (PARA CELULAR): CORRECCION DE ESPACIO DE SCROLL*/ 
+    h1{ 
+        font-size: 53px;/*IMPORTANTE PARA QUE EL NAV NO SE ACHIQUE */
+        padding-top: 30px; 
+    }
+}
 
-@media (max-width: 700px){ /*VISTA MOBILE (PARA CELULAR)*/ 
+@media (max-width: 700px) { /*VISTA MOBILE (PARA CELULAR)*/ 
     #contacto h3{ /*ESTILOS DE CONTACTO */
         font-size: 27px ;
     }
