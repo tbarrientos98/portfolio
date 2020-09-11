@@ -50,7 +50,7 @@ $pg = "proyecto";
                         </div>
                         <div class="row pt-2">
                             <div class="col-6">
-                                <a href="http://localhost/sistema/abmclientes/" target="_blank" class="btn">Ver online</a>
+                                <a href="http://tomasbarrientos.com.ar/sistema/abmclientes/index.php" target="_blank" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
                                 <a href="https://github.com/tbarrientos98/ABMclientes" target="_blank">Código fuente</a>
@@ -74,7 +74,7 @@ $pg = "proyecto";
                         </div>
                         <div class="row">
                             <div class="col-6">
-                                <a href="http://localhost/login/login.php" target="_blank" class="btn">Ver online</a>
+                                <a href="http://tomasbarrientos.com.ar/login/login.php" target="_blank" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
                                 <a href="https://github.com/tbarrientos98/ABMventas" target="_blank">Código fuente</a>

@@ -78,6 +78,7 @@ h5{ /****** SUB-TITULO PRINCIPAL DE CADA PAGINA*/
     background-color: rgb(45, 45, 45);
     color: white;
     border-radius: 0%;
+    box-shadow: 10px 5px 5px grey; 
 }
 .btn:hover{
     background-color: rgb(110, 109, 109);
@@ -114,13 +115,17 @@ a{
 
 /**************************************************** ESTILOS PAGINA SOBRE MI */  
 
+.difuminado{
+    background: linear-gradient(to right,white, white,#9fc4d67a,#9fc4d67a); /* difuminado, foto y subtitulo "sobre mi" */
+}
+
 img[alt="CV"] {
-    border-radius: 50%;
-    max-width: 75%;
+    /*aca iria el border radius */
+    max-width: 80%;
     height: auto;
 }
 #fotocv{
-    max-height: 50%;
+    max-height: 80%; /*modifique el porcentaje */
 }
 .pastalinda{
     max-height: 180px;
@@ -132,6 +137,7 @@ img[alt="CV"] {
 }
 .sobremi{
     min-height: 246px;
+    box-shadow: 10px 5px 5px grey;  /* sombra para la informacion de "sobre mi" */
 }
 #experiencia{
     background-color: rgb(45, 45, 45);
@@ -193,13 +199,13 @@ section i{
 
 @media (max-width: 700px) { /*VISTA MOBILE (PARA CELULAR)*/ 
     #contacto h3{ /*ESTILOS DE CONTACTO */
-        font-size: 27px ;
+        font-size: 26px ;
     }
 
     /******IMAGEN CV PAGINA "SOBRE MI" */
 
     img[alt=CV]{
-        max-height: 95%;
+        max-height: 100%;
     }
     .fotocv{
         max-width: 74%;
@@ -238,7 +244,7 @@ section i{
     }
     .navbar-toggler{ 
         position: relative;
-        left: 85%;
+        left: 83%;
     }
     .nav-link{ 
         text-align: left;

@@ -1,5 +1,5 @@
 <?php
-    $pg = "sobre_mi";
+$pg = "sobre_mi";
 ?>
 
 <!DOCTYPE html>
@@ -21,20 +21,25 @@
 
 <body>
 
-    <?php include_once("menu.php");?>
-
-    <div class="container">
-        <section id="sobre mi">
-            <div class="row pt-4 pb-sm-4">
+    
+    <div class="container-fuid difuminado">
+    <?php include_once("menu.php"); ?> <!-- integrado en el container para que mantenga los estilos de esta seccion -->
+        <div class="container">
+            <div class="row pt-4">
                 <div class="col-sm-7 col-12">
                     <h1>Sobre mí</h1>
                     <h5 class="my-5">Soy técnico electromecánico, profesor de bachata y estudiante de programación. Estoy descubriendo nuevos rubros, ampliando conocimientos y encontrando mis pasiones.</h5>
                     <a href="files/cvtbarrientos.pdf" target="_blank" class="btn">Descargar CV</a>
                 </div>
                 <div class="col-sm-5 col-12 text-center">
-                    <img src="images/fotocv.jpg" alt="CV" class="img-fluid p-4 fotocv">
+                    <img src="images/fotocvsinfondo.png" alt="CV" class="img-fluid pt-sm-0 pt-5 fotocv">
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container pt-sm-5 pt-3">
+        <section id="sobre mi">
+
             <div class="row">
                 <!--primer bloque: programacion-->
                 <div class="col-sm-6 col-12 pb-3">
@@ -151,8 +156,9 @@
     </section>
 
 
-    
+
 
 </body>
-<?php include_once("footer.php");?>
+<?php include_once("footer.php"); ?>
+
 </html>
