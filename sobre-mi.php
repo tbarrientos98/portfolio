@@ -111,7 +111,7 @@ $pg = "sobre_mi";
                             <div class="col-12">
                                 <i class="fas fa-database p-4"></i>
                                 <h4 class="my-3">BASE DE DATOS</h4>
-                                <p>MySQL/MariaDB.</p>
+                                <p>MySQL/MariaDB, phpMyAdmin.</p>
                             </div>
                         </div>
                     </div>
