@@ -116,7 +116,7 @@ a{
 /**************************************************** ESTILOS PAGINA SOBRE MI */  
 
 .difuminado{
-    background: linear-gradient(to right,white, white,#9fc4d67a,#9fc4d67a); /* difuminado, foto y subtitulo "sobre mi" */
+    background: linear-gradient(to right,white, white,#9fc4d633,#9fc4d67a); /* difuminado, foto y subtitulo "sobre mi" */
 }
 
 img[alt="CV"] {
