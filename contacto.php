@@ -19,7 +19,8 @@ if ($_POST) { /* es postback */
     $mail->SMTPAuth = true;
     $mail->Host = "mail.tomasbarrientos.com.ar"; // SMTP a utilizar
     $mail->Username = "info@tomasbarrientos.com.ar"; // Correo completo a utilizar
-    $mail->Password = "T0M4SB4RR13NT0S.9023";
+    // $mail->Password = "T0M4SB4RR13NT0S.9023";
+    $mail->Password = "ck55htme";
     $mail->Port = 25;
     $mail->From = "info@tomasbarrientos.com.ar"; //Desde la cuenta donde enviamos
     $mail->FromName = "Tomas Barrientos";
@@ -131,7 +132,9 @@ function guardarCorreo($correo){
       </div>
     </section>
   </div>
-  <?php include_once("footer.php"); ?>
+  <div style=" position:absolute; bottom:0px; left: 0px; right: 0px;">
+    <?php include_once("footer.php");?>
+  </div>
 </body>
 
 </html>

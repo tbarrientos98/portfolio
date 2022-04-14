@@ -100,7 +100,7 @@ $pg = "proyecto";
                         </div>
                         <div class="row ">
                             <div class="col-6">
-                                <a href="" class="btn">Ver online</a>
+                                <a href="" class="btn">En proceso</a>
                             </div>
                             <div class="col-6 text-right">
                                 <a href="" target="_blank">Código fuente</a>

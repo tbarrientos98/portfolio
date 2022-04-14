@@ -89,6 +89,10 @@ h5{ /****** SUB-TITULO PRINCIPAL DE CADA PAGINA*/
 
 footer{
     background-color: white;
+    /* bottom: 0px;
+    position: absolute;
+    right: 0px;
+    left: 0px; */
 }
 footer i{
     font-size: 35px;

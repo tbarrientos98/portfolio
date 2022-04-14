@@ -54,8 +54,8 @@
         </div>
     </div>
 
-    
-
 </body>
-<?php include_once("footer.php");?>
+<div style=" position:absolute; bottom:0px; left: 0px; right: 0px;">
+    <?php include_once("footer.php");?>
+</div>
 </html>

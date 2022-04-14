@@ -28,7 +28,7 @@ $pg = "sobre_mi";
             <div class="row pt-4">
                 <div class="col-sm-7 col-12">
                     <h1>Sobre mí</h1>
-                    <h5 class="my-5">Soy técnico electromecánico, profesor de bachata y estudiante de programación. Estoy descubriendo nuevos rubros, ampliando conocimientos y encontrando mis pasiones.</h5>
+                    <h5 class="my-5">Soy Programador Web Full Stack. Estoy descubriendo nuevos rubros, ampliando conocimientos y encontrando mis pasiones.</h5>
                     <a href="files/cvtbarrientos.pdf" target="_blank" class="btn">Descargar CV</a>
                 </div>
                 <div class="col-sm-5 col-12 text-center">
@@ -47,8 +47,10 @@ $pg = "sobre_mi";
                         <div class="row p-3">
                             <div class="col-12">
                                 <i class="fas fa-code p-4"></i>
-                                <h4 class="my-3">LENGUAJES DE PROGRAMACIÓN</h4>
-                                <p>HTML, CSS, Bootstrap, PHP, POO, MVC, Framework Laravel, Javascript, jQuery, React.js, AJAX, JSON.</p>
+                                <h4 class="my-3">SKILLS</h4>
+                                <p>HTML5, CSS, Bootstrap, PHP, POO, MVC, Framework Laravel,
+                                    Framework Symfony, Javascript, jQuery, React.js, Node.js, AJAX, JSON.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -60,7 +62,7 @@ $pg = "sobre_mi";
                             <div class="col-12">
                                 <i class="fas fa-laptop-code p-4"></i>
                                 <h4 class="my-3">SOFTWARE</h4>
-                                <p>GIT, GitHub, Visual Code, MS Office, Google Docs, Heidi SQL, MS Project, MS Windows.</p>
+                                <p>GIT, GitHub, Gitlab, Visual Code, MS Office, Heidi SQL, Windows, Linux Ubuntu, Firebase.</p>
                             </div>
                         </div>
                     </div>
@@ -111,7 +113,7 @@ $pg = "sobre_mi";
                             <div class="col-12">
                                 <i class="fas fa-database p-4"></i>
                                 <h4 class="my-3">BASE DE DATOS</h4>
-                                <p>MySQL/MariaDB, phpMyAdmin.</p>
+                                <p>MySQL/MariaDB, phpMyAdmin, Workbrench.</p>
                             </div>
                         </div>
                     </div>
