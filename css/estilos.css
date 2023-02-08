@@ -140,7 +140,7 @@ img[alt="CV"] {
     font-size: 19px !important;
 }
 .sobremi{
-    min-height: 246px;
+    min-height: 100%;
     box-shadow: 10px 5px 5px grey;  /* sombra para la informacion de "sobre mi" */
 }
 #experiencia{

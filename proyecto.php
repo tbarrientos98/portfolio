@@ -100,7 +100,7 @@ $pg = "proyecto";
                         </div>
                         <div class="row ">
                             <div class="col-6">
-                                <a href="" class="btn">En proceso</a>
+                                <!-- <a href="" class="btn">En proceso</a> -->
                             </div>
                             <div class="col-6 text-right">
                                 <a href="" target="_blank">Código fuente</a>
@@ -116,9 +116,9 @@ $pg = "proyecto";
                     <div class="bg-white p-3 proyecto">
                         <div class="row">
                             <div class="col-12">
-                                <img src="images/paginaKaren.png" alt="ABM Ventas" class="img-fluid">
-                                <h4 class="text-center text-sm-left pt-3">Página web</h4>
-                                <p class="py-3">Portfolio personal. Elaborado en HTML, CSS, Bootstrap y Javascript.</p>
+                                <img src="images/react-hooks.png" alt="ABM Ventas" class="img-fluid">
+                                <h4 class="text-center text-sm-left pt-3">Consumo de api: Rick & Morty</h4>
+                                <p class="py-3">Sitio web resposive integrando el consumo de una api y variados hooks de react.js</p>
                             </div>
                         </div>
                         <div class="row pt-2" style="position:relative; bottom: 0px">
@@ -126,7 +126,7 @@ $pg = "proyecto";
                                 <a href="" target="_blank" class="btn">En proceso</a>
                             </div>
                             <div class="col-6 text-right">
-                                <a href="https://github.com/tbarrientos98/Karensofia" target="_blank">Código fuente</a>
+                                <a href="https://github.com/tbarrientos98/ReactHooks" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>

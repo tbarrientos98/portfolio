@@ -49,7 +49,7 @@ $pg = "sobre_mi";
                                 <i class="fas fa-code p-4"></i>
                                 <h4 class="my-3">SKILLS</h4>
                                 <p>HTML5, CSS, Bootstrap, PHP, POO, MVC, Framework Laravel,
-                                    Framework Symfony, Javascript, jQuery, React.js, Node.js, AJAX, JSON.
+                                    Framework Symfony, Javascript, jQuery, React.js, Node.js, AJAX, JSON, TypeScript
                                 </p>
                             </div>
                         </div>
@@ -143,6 +143,21 @@ $pg = "sobre_mi";
                         laminadoras, entre otras. Control de calidad de productos y piezas. Realicé verificaciones con
                         instrumentos de medición: calibres, micrómetros, refractómetro, entre otros. Eventualmente realizaba el control
                         de stock de herramientas, y constantemente la organización, mantenimiento y limpieza del sector.
+                    </p>
+                </div>
+
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-2 col-12">
+                    <h3>2020 – ACTUALMENTE - SOLUTION BOX</h3>
+
+                </div>
+                <div class="col-sm-3 col-12 pastalinda mt-sm-0 mt-3 pl-sm-4">
+                    <p id="operario">Desarrollador web:</p>
+                    <img src="images/solution-box.png" alt="" class="img-thumbnail mt-4">
+                </div>
+                <div class="col-sm-7 col-12">
+                    <p>Creación y mantenimiento de sitios webs resposivos, implementando php, jquery, React.js y Node.js
                     </p>
                 </div>
 
