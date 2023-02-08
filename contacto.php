@@ -36,7 +36,7 @@ if ($_POST) { /* es postback */
     //Destinatarios
     $mail->addAddress($correo);
     $mail->addBCC("barrientostomas98@gmail.com"); //Copia oculta
-    $mail->Subject = utf8_decode("Contacto página Web");
+    $mail->Subject = mb_convert_encoding("Contacto página Web", 'UTF-8');
     $mail->Body = "Recibimos tu consulta, te responderemos a la brevedad.";
     //if (!$mail->Send()) {
       $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
@@ -45,7 +45,7 @@ if ($_POST) { /* es postback */
 
     //Envía ahora un correo a nosotros con los datos de la persona
     $mail->addAddress("barrientostomas98@gmail.com");
-    $mail->Subject = utf8_decode("Recibiste un mensaje desde tu página Web");
+    $mail->Subject = mb_convert_encoding("Recibiste un mensaje desde tu página Web", 'UTF-8');
     $mail->Body = "Te escribio $nombre cuyo correo es $correo, con el asunto $asunto y el siguiente mensaje:<br><br>$mensaje";
 
     if ($mail->Send()) { /* Si fue enviado correctamente redirecciona */
@@ -132,9 +132,9 @@ function guardarCorreo($correo){
       </div>
     </section>
   </div>
-  <div style=" position:absolute; bottom:0px; left: 0px; right: 0px;">
-    <?php include_once("footer.php");?>
-  </div>
+
+  <?php include_once("footer.php");?>
+
 </body>
 
 </html>
